@@ -1,0 +1,248 @@
+:root {
+  --main-bg-color: #07b0b0;
+  --main-lt-color: #92d5d5;
+  --second-color: #3dd1dc;
+  --product-width: 700px;
+  --product-width-md: 400px;
+  --cart-color: #26adda;
+}
+.cartPageMain {
+  /* background-color: #f8f8f8; */
+  margin-top: 40px;
+}
+.cartPageContainer {
+  min-height: 600px;
+}
+.cart-items-bar-css {
+  background-color: white;
+  z-index: 9999;
+  position: sticky;
+  top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+.cart-items-bar {
+  padding: 10px 20px;
+}
+.cart-items-bar p {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #808080;
+}
+.cart-items-bar h4 {
+  margin: 0px;
+}
+
+.cart-items-bar button {
+  background-color: transparent;
+  color: #cc4656;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  font-size: 17px;
+  border-bottom: 1px solid #cc4656;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.cart-items-bar button:hover {
+  background-color: #cc4656;
+  color: #fff;
+  border-bottom: 1px solid #cc4656;
+}
+/*/////////////////////// CART CHECKOUT/////////////////// */
+.CheckoutCart-header {
+  padding: 10px 20px;
+}
+.CheckoutCart-header h3 {
+  text-transform: capitalize;
+  /* text-align: center; */
+  padding-bottom: 7px;
+  border-bottom: 1px solid #bcbcbc;
+}
+.subtotalCartChe-l {
+  color: #808080;
+  font-size: 18px;
+}
+.subtotalCartChe-r {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+}
+.subtotalCartChe-l input {
+  padding: 1px 10px;
+  border: 1px solid #808080;
+  width: 90%;
+  border-radius: 4px;
+  height: 27px;
+}
+.subtotalCartChe-l button {
+  background-color: var(--cart-color);
+  border: 1px solid var(--cart-color);
+  padding: 4px 15px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subtotalCartChe-l button:hover {
+  background-color: white;
+  color: var(--cart-color);
+  transition: 0.3s;
+}
+.subtotalCartChe-l p {
+  margin: 0px;
+  padding: 5px 0px;
+  font-size: 16px;
+  color: #3b3b3b;
+}
+.total-cart-che {
+  background-color: #f5f5f5;
+}
+.total-che {
+  padding: 10px 20px;
+  color: black;
+}
+
+.total-che .subtotalCartChe-l {
+  color: black;
+}
+.total-che .subtotalCartChe-r {
+  color: rgb(46, 46, 46);
+  font-size: 17px;
+}
+.align-center {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#order-summary-che {
+  text-align: center;
+  border: 1px solid var(--cart-color);
+  color: white;
+  padding: 8px 30px;
+  font-size: 20px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--cart-color);
+  cursor: pointer;
+  transition: 0.5s;
+}
+#order-summary-che:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  color: var(--cart-color);
+  background-color: white;
+  transition: 0.5;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+/* /////////////////////////// Cart Item ////////////////////*/
+.cartItemsHolder {
+  margin-top: 100px;
+}
+.cart-item-holder {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.cart-item-a img {
+  max-width: 100px;
+}
+.cart-item-a h2 {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.cart-item-a span {
+  color: #808080;
+  margin-top: 5px;
+}
+.cart-item-a .cartColorSpn{
+  padding: 6px;
+  color: transparent;
+  border-radius: 50%;
+  font-size: 0px;
+  position: relative;
+  bottom: 5px;
+
+}
+.select-size-cart-item {
+  width: 50%;
+  margin-left: 20% !important;
+}
+.cart-item-c .cartQBtn {
+  cursor: pointer;
+  background-color: var(--cart-color);
+  width: 35px;
+  height: 35px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+.cart-item-c .cartQBtn:hover {
+  cursor: pointer;
+  border-color: var(--cart-color);
+  color: var(--cart-color);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.cart-item-c .cartItemQ {
+  position: relative;
+  top: 5px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.cart-item-c .cartQBtn span {
+  position: relative;
+  bottom: 4px;
+}
+
+.cart-item-d h2 {
+  margin-bottom: 4px;
+  padding-right: 10px;
+}
+.cart-item-d .cartItemEAndR {
+  background-color: transparent;
+  padding: 8px 10px;
+  font-size: 17px;
+  transition: 0.4s;
+  border: 0px;
+  cursor: pointer;
+}
+.cart-item-d .cartItemExceptNow {
+  margin-bottom: 4px;
+  color: var(--cart-color);
+  border-bottom: 1px solid var(--cart-color);
+}
+
+.cart-item-d .cartItemRemove {
+  color: #cc4656;
+  border-bottom: 1px solid #cc4656;
+}
+
+.cart-item-d .cartItemExceptNow:hover {
+  background-color: var(--cart-color);
+  color: white;
+  transition: 0.5s;
+}
+.cart-item-d .cartItemRemove:hover {
+  background-color: #cc4656;
+  color: white;
+  transition: 0.5s;
+}
+.exception {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

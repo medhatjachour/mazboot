@@ -1,0 +1,98 @@
+.form-demo{
+  min-height: 80vh;
+}
+.form-demo .card {
+  min-width: 450px;
+  margin-top: 7%;
+}
+.form-demo .card form {
+  margin-top: 2rem;
+}
+.form-demo .card .field {
+  margin-bottom: 1.5rem;
+}
+.VButtonLogIn{
+  cursor: pointer;
+  width: 30%;
+  border: 1px solid #ced1d3;
+  padding: 10px 25px;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.activeState{
+  
+  background-color: #6366f1;
+  color: white;
+}
+.notVendor{
+  border-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.vendor{
+  
+  border-left: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+@media screen and (max-width: 960px) {
+  .form-demo .card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .form-demo .card {
+    width: 100%;
+    min-width: 0;
+  }
+/* /////////////////////////LoGIN/////////////////////////////////// */
+}
+.forget-password{
+  text-transform: capitalize;
+  font-size: .9rem;
+  text-align: right;
+  padding-right: 3px;
+}
+.forget-password:hover{
+  color: rgb(42, 51, 218);
+}
+.or-box .leftLine{
+  width: 20%;
+  border-top: 1px dashed lightgray;
+}
+.or-box .rightLine{
+  float: right;
+  width: 20%;
+  border-top: 1px dashed lightgray;
+}
+.p-float-label input:-webkit-autofill ~ label {
+  top: -8px!important;
+}
+.or-box .or{
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 0px!important;
+  border: 1px dashed lightgray;
+  padding: 8px;
+  border-radius: 8px;
+}
+.log-social{
+  width: 100%;
+}
+.log-social .google{
+  color: #db4437;
+}
+.log-social .google:hover{
+  color: #db4437;
+}
+.log-social .facebook{
+  color: #1877f2;
+}
+.log-social .facebook:hover{
+  color: #1877f2;
+}.log-social .apple{
+  color: #a6b1b7;
+}
+.log-social .apple:hover{
+  color: #a6b1b7;
+}

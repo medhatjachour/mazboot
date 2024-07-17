@@ -1,0 +1,168 @@
+
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    background: linear-gradient(155deg,#07b0b0,#92d5d5);
+    /* padding-bottom: 200px;background: linear-gradient(100deg,#07b0b0,#92d5d5); */
+    overflow: hidden;
+    height: 770px;
+    padding: 68px;
+}
+.maxWidthHere{
+    max-width: 1130px;
+}
+.hero_text{
+    position: relative;
+    z-index: 3;
+    min-width: 512px;
+    pointer-events: none;
+}
+.here_title{
+    margin-bottom: 40px;
+    color: #fff;
+    color: var(--skfb-white,#fff);
+    font-size: 48px;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+.hero_slogan{
+    margin: 0 0 40px;
+    color: #fff;
+    color: var(--skfb-white,#fff);
+    opacity: .7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.hero_model{
+    height: 500px;
+}
+.hero_model canvas{
+    height: 500px;
+}
+.features-holder{    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #fff;
+    background-color: var(--skfb-white,#fff);
+    border-radius: 3px;
+    box-shadow: 0 11px 20px 0 rgb(97 108 121 / 17%);
+    transform: translateY(-120px);
+    margin-bottom: -50px;
+    z-index: 2;    margin: 0 auto;
+    max-width: 1130px;
+    width: calc(100% - 60px);
+}
+.features-holder .features-details{
+    text-align: center;
+    align-items: center;
+}
+.features-holder .features-details h3{
+    margin: 10px 0px ;
+}
+.features-holder .FeaturesHome{
+    padding: 10px 30px;
+    border: 0px;
+    margin-top: 7px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 17.6px;
+    background-color: rgb(208, 165, 165);
+}
+
+.features-holder .FeaturesHomeProve{
+    background-color: rgb(91, 97, 212);
+}
+.features-holder .FeaturesHomeItem{
+    background-color: rgb(8, 169, 169);
+}
+/* //////////////////////// cards /////////////////////// */
+.cardS{
+    max-width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+/* .cardS .hCardImg{
+    max-height: 70%;
+}
+
+.cardS .hCardImg img{
+    display: inline;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.cardS .hCardFooter{
+    min-height: 30%;
+} */
+/**********************slider*/
+.sliderM{
+    position: relative;
+}
+.sliderM .cat-cart{
+box-shadow: none;
+min-width: 355px;
+}
+
+.sliderM .cat-cart .cat-card-btn-right button{
+    left: 10%;
+    }
+.sliderAndMore{
+    max-width: 80%;
+    margin: auto;
+}
+
+.theViewIWantCarousel{
+    overflow: hidden;   
+    scroll-behavior: smooth;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+}
+
+.theViewIWantCarousel::-webkit-scrollbar{
+    display: none;
+}
+ .next,
+ .previous
+{
+    border: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 8;
+    top: 30%;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(#8a8181, transparent);
+}
+ .previous {
+    left: -25px;
+}
+ .next {
+    right: -25px;
+}
+
+@media only screen and (max-width: 900px) {
+    .here_title  {
+        font-size: 30PX;
+        /* margin-top: 5PX; */
+        margin: auto;
+        text-align: center;
+    }
+    .hero_slogan{
+        margin: auto;
+        text-align: center;
+    }
+}
