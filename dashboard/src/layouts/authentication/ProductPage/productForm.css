@@ -1,0 +1,114 @@
+.productForm .progress-pForm{
+    background-color: transparent;
+    border: 0px ;
+    color: rgb(143, 142, 142);
+    /* color: rgb(5, 113, 124); */
+    text-transform: capitalize;
+    line-height: 2;
+    margin-right: 7px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .3s;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.productForm .progress-pForm:hover{
+    transition: .7s;
+    color:  rgb(5, 113, 124);
+}
+.productForm .progress-pForm svg{
+    position: relative;
+    top: 12px;
+}
+.productForm .Step-three{
+    padding-top: 10px;
+}
+.productForm textarea{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.productForm .Step-three svg{
+    color: transparent;
+    top: 7px;
+    left: 7px;
+}
+.active-f-color{
+    color:  rgb(5, 113, 124)!important;
+}
+.active-f-color svg{
+    color:  rgb(5, 113, 124)!important;
+}
+
+.productForm .css-9tf19b-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 1rem!important;    
+    top: -8px;
+}
+.productForm .css-8nrica-MuiInputBase-root-MuiOutlinedInput-root input{
+    font-size: 1rem!important;
+    width: 99%!important;
+}
+.alignLeft{
+    text-align: left!important;
+    margin-bottom: 10px;
+}
+.none{
+    display: none!important;
+}
+.color-picker-f{
+    position: absolute!important;
+    top: -20px;
+    z-index: 999;
+    display: inline;
+    /* display: none!important; */
+}
+.value{
+        border-left: 24px solid #000;
+        height: 20px;
+   
+        padding-left: 10px;
+        margin-top: 20px;
+}
+#choseAColor{
+    border: 1px solid rgb(5, 113, 124);
+    background-color: transparent;
+    color:  rgb(5, 113, 124);
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+}
+#choseAColor:hover{
+    border: 1px solid rgb(5, 113, 124);
+    color:#fff;
+    background-color:  rgb(5, 113, 124);
+    border-radius: 8px;
+    transition: .6s;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.SizeCard{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(227, 227, 227);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+#addSize{
+    margin-top: 20px;
+}
+.img-size{
+    border-radius: 8px;
+    max-width: 100%;
+}
+.img-size img{
+    border-radius: 8px;
+    max-width: 100%;
+}
+.css-1i0az6v-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    width: 100%!important;
+}
+.color-holder{
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+}
