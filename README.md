@@ -32,7 +32,7 @@
 7. Checkout Process:
     . Guide users through a smooth checkout process.
     . Include steps like shipping address, payment method, and order summary.
-[![Video Title](https://img.youtube.com/vi/)](https://github.com/medhatjachour/mazboot/blob/main/sample/Muzzboot.mp4?raw=true)
+![intro vid](https://github.com/medhatjachour/mazboot/blob/main/sample/Muzzboot.mp4?raw=true)
 
 ![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/m2.jpg?raw=true)
 ![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/m3.jpg?raw=true)
