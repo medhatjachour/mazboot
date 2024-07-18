@@ -1,8 +1,8 @@
 {
-  "name": "soft-ui-dashboard-react",
+  "name": "mazboot_dashboard",
   "version": "3.1.0",
-  "author": "Creative Tim",
-  "description": "ReactJS version of Soft UI Dashboard by Creative Tim",
+  "author": "medhat j achour",
+  "description": "Soft UI Dashboard React project, and you’d like to update the README to better describe its purpose",
   "bugs": {},
   "engines": {
     "node": "14 || 15 || 16",

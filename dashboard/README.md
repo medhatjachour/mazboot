@@ -3,11 +3,12 @@ This project provides a sleek and user-friendly interface for managing your e-co
 
 ## Features
 Sales Tracking: Visualize your sales data with interactive charts and graphs. Monitor trends, spot patterns, and make informed decisions.
-Income Overview: Get a comprehensive view of your income—daily, weekly, or monthly. Understand revenue sources and identify growth opportunities.
+Income Overview: Get a comprehensive view of your income daily, weekly, or monthly. Understand revenue sources and identify growth opportunities.
 Product Management: Easily add new products to your catalog. Update descriptions, prices, and availability with a few clicks.
 Item Tracking: Keep tabs on individual items. Know their status, location, and any relevant details.
 
 ![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/d1.png?raw=true)
+![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/d2.png?raw=true)
 
 ## Getting Started
 1. Installation
