@@ -1,9 +1,9 @@
 # MAZBOOT 
-3D e-commerce platform that combines human body models and product models for an immersive shopping experience.
+A 3D e-commerce platform that combines human body models and product models for an immersive shopping experience.
 
 ## Features
 1. View Items as 3D Models:
-    . To display products as 3D models, yo ’ll need to incorporate Three.js (which you’ve already mentioned). Here’s how:
+    . To display products as 3D models, you’ll need to incorporate Three.js (which you’ve already mentioned). Here’s how:
         . Product Details Page: When a user selects a product, load its 3D model dynamically. You can use formats like GLTF or OBJ.
         . Interactive Controls: Allow users to rotate, zoom, and pan around the 3D model. Consider adding buttons for predefined views (front, back, side).
         . Lighting and Shading: Apply appropriate lighting and shading to make the model look realistic.
@@ -25,10 +25,10 @@
         . Caching: Cache models to reduce load times.
         . Progressive Loading: Load basic geometry first and enhance as needed.
 5. Wishlist and Favorites:
-    . Let users save products to their wishlist or favorites list.
+    . Let users save products to their wishlist or favourites list.
      .Provide an easy way for them to access these saved items.
 6. Product Recommendations:
-    . Use machine learning algorithms (if possible) to recommend related products based on user behavior (e.g., viewed products, purchased items).
+    . Use machine learning algorithms (if possible) to recommend related products based on user behaviour (e.g., viewed products, purchased items).
 7. Checkout Process:
     . Guide users through a smooth checkout process.
     . Include steps like shipping address, payment method, and order summary.
