@@ -51,7 +51,7 @@ Within the download you'll find the following directories and files:
 ├── .gitattributes
 ├── license
 └── README.md
-```
+
 ## Contributing
 
 Contributions are welcome! If you’d like to contribute to this project, just contact me
