@@ -39,8 +39,8 @@
 6. 3D visualization
     . use three js to view the product item as a 3d model with
 
-![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/f1.png?raw=true)
-![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/f2.png?raw=true)
+![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/f1.jpg?raw=true)
+![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/f2.jpg?raw=true)
 
 ## Getting Started
 1. Installation
