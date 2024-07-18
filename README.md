@@ -45,13 +45,15 @@ A 3D e-commerce platform that combines human body models and product models for 
 
 ### What's included
 Within the download you'll find the following directories and files:
-├── backend
-├── dashboard
-├── frontend
-├── .gitattributes
-├── license
-└── README.md
-
+```
+mazboot
+    ├── backend
+    ├── dashboard
+    ├── frontend
+    ├── .gitattributes
+    ├── license
+    └── README.md
+```
 ## Contributing
 
 Contributions are welcome! If you’d like to contribute to this project, just contact me
