@@ -8,7 +8,7 @@ Product Management: Easily add new products to your catalog. Update descriptions
 Item Tracking: Keep tabs on individual items. Know their status, location, and any relevant details.
 
 ![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/d1.png?raw=true)
-![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/d2.png?raw=true)
+![alt text](https://github.com/medhatjachour/mazboot/blob/main/sample/d2.jpg?raw=true)
 
 ## Getting Started
 1. Installation
